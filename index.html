@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="side-nav">
+        <li class="nav-items" onclick="scrollToSection('home')">
+          <span class="nav-text">Home</span>
+          <span class="nav-line"></span>
+        </li>
+        <li class="nav-items" onclick="scrollToSection('about')">
+          <span class="nav-text">About me</span>
+          <span class="nav-line"></span>
+        </li>
+        <li class="nav-items" onclick="scrollToSection('projects')">
+          <span class="nav-text">Projects</span>
+          <span class="nav-line"></span>
+        </li>
+        <li class="nav-items" onclick="scrollToSection('skills')">
+          <span class="nav-text">Skills</span>
+          <span class="nav-line"></span>
+        </li>
+        <li class="nav-items" onclick="scrollToSection('contact')">
+          <span class="nav-text">Contact</span>
+          <span class="nav-line"></span>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="vintage-border">
+          <!-- <p class="subtitle">ESTABLISHED 199X</p> -->
+          <h1>Anush Kumar</h1>
+          <p class="tagline">Person who craves to learn everything.</p>
+        </div>
+      </section>
+
+      <section id="about" class="content-section">
+        <div class="container">
+          <h2 class="section-title">The Chronicle</h2>
+          <div class="grid-2">
+            <div class="text-block">
+              <p>
+                I am a developer who believes that learning never ends. I spend
+                my time exploring new technology. Been exploring the word of
+                Linux, letting me know how the system functions and keep within
+                my control.
+              </p>
+              <p
+                style="
+                  font-style: italic;
+                  margin-top: 20px;
+                  color: var(--accent);
+                "
+              >
+                — In a world of constant change, I keep my roots in the
+                stability of Linux and my eyes on the future of code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="content-section">
+        <div class="container">
+          <h2 class="section-title">The Workshop</h2>
+          <div class="project-grid">
+            <div class="project-card">
+              <div class="card-header">
+                <span class="serial-no">NO. 001</span>
+                <div class="tech-icons">
+                  <i class="devicon-react-original"></i>
+                  <i class="devicon-tailwindcss-original-wordmark"></i>
+                </div>
+              </div>
+              <h3>Geomagic</h3>
+              <p>
+                Desined and developed a responsive product webpage for a startup
+                brand.
+              </p>
+              <a href="https://experimindlabs.com/geomagic" class="view-link"
+                >View Blueprint →</a
+              >
+            </div>
+
+            <div class="project-card">
+              <div class="card-header">
+                <span class="serial-no">NO. 002</span>
+                <div class="tech-icons">
+                  <i class="devicon-react-original"></i>
+                  <i class="devicon-mongodb-plain"></i>
+                </div>
+              </div>
+              <h3>ByteFlow</h3>
+              <p>A Question and answer webpage with interactive features.</p>
+              <a href="https://experimindlabs.com/geomagic" class="view-link"
+                >View Blueprint →</a
+              >
+            </div>
+
+            <div class="project-card">
+              <div class="card-header">
+                <span class="serial-no">NO. 003</span>
+                <div class="tech-icons">
+                  <i class="devicon-linux-plain"></i>
+                  <i class="devicon-archlinux-plain"></i>
+                </div>
+              </div>
+              <h3>Hyprcloned</h3>
+              <p>Custom made Linux Ricing with Hyprland.</p>
+              <a href="https://github.com/AsukaAzure/hyprcloned" class="view-link"
+                >View Blueprint →</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="content-section">
+        <div class="container">
+          <h2 class="section-title">Technical Anatomy</h2>
+
+          <div class="anatomy-chart">
+            <div class="anatomy-branch">
+              <div class="branch-label">Frontend</div>
+              <div class="branch-content">
+                <span>HTML5 & CSS3</span>
+                <span>JavaScript (ES6)</span>
+                <span>React.js</span>
+              </div>
+            </div>
+
+            <div class="anatomy-branch">
+              <div class="branch-label">System</div>
+              <div class="branch-content">
+                <span>Linux (Arch)</span>
+                <span>Bash Scripting</span>
+                <span>Git </span>
+              </div>
+            </div>
+
+            <div class="anatomy-branch">
+              <div class="branch-label">Other</div>
+              <div class="branch-content">
+                <span>Figma</span>
+                <span>Blender</span>
+                <span>Ricing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="content-section">
+        <div class="container text-center">
+          <h2 class="section-title">Get In Touch</h2>
+          <p>Correspondence is welcomed via the digital post.</p>
+          <a href="mailto:anushkumar128@gmail.com" class="vintage-btn"
+            >Send an Inquiry</a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
