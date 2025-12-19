@@ -356,7 +356,6 @@ section {
         transition: all 0.3s ease;
     }
 
-    /* 3. Highlight icon when active */
     .nav-items.active .nav-icon {
         opacity: 1;
         transform: scale(1.2);
