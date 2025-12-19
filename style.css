@@ -347,5 +347,11 @@ section {
     .nav-text {
         display: none;
     }
+    .nav-line{
+        width: 10px;
+    }
+    .nav-items.active .nav-line {
+        width: 20px;
+    }
 }
 
