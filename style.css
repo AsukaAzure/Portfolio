@@ -372,3 +372,8 @@ section {
     }
 }
 
+@media (width >= 1024px) {
+    .project-grid{
+        grid-template-columns: repeat(3, minmax(350px, 1fr));
+    }
+}
