@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #f4f1ea;       
+    --bg-color: #f6ebd2;       
     --text-primary: #2c2c2c;  
     --accent: #5e503f;        
     --border-color: #d1ccbd;  
@@ -372,8 +372,8 @@ section {
     }
 }
 
-@media (width >= 1024px) {
+@media (width >= 1320px) {
     .project-grid{
-        grid-template-columns: repeat(3, minmax(350px, 1fr));
+        grid-template-columns: repeat(2, minmax(350px, 1fr));
     }
 }
